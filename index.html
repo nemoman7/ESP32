@@ -22,7 +22,8 @@
       window.location.reload()
     }
     function logIn() {
-      liff.login({ redirectUri: window.location.href="www.google.com"})
+       // liff.login({ redirectUri: window.location.href="www.google.com"})
+      liff.login()
     }
     async function getUserProfile() {
       const profile = await liff.getProfile()
